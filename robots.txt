@@ -1,3 +1,1 @@
-User-agent: *
-Disallow: /private/
-Disallow: /friends/
+User-agent: * Disallow: /
