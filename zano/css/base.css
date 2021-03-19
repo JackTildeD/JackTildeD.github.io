@@ -1,17 +1,8 @@
-/* @import url("https://unpkg.com/sanitize.css");
-@import url("https://unpkg.com/sanitize.css/assets.css");
-@import url("https://unpkg.com/sanitize.css/typography.css");
-@import url("https://unpkg.com/sanitize.css/reduce-motion.css");
-@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap"); */
-
 @font-face {
     font-family: "Saira Stencil One";
     src: local("Saira Stencil One"),
         local("Saira-Stencil-One"),
-        local("Saira Stencil One Regular"),
-        local("Saira-Stencil-One-Regular"),
-        url("https://jacktilded.github.io/files/fonts/saria-stencil-one/SairaStencilOne-Regular.woff") format("woff");
+        url("https://JackTildeD.github.io/zano/fonts/SairaStencilOne-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,9 +10,7 @@
 @font-face {
     font-family: "Gugi";
     src: local("Gugi"),
-        local("Gugi Regular"),
-        local("Gugi-Regular"),
-        url("https://jacktilded.github.io/files/fonts/gugi/Gugi-Regular.woff") format("woff");
+        url("https://JackTildeD.github.io/zano/fonts/Gugi-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -73,6 +62,8 @@
         0 calc(100% - 1.2rem),
         0 1.2rem
     );
+    --std-width: 98%;
+    --std-max-width: 60rem;
 }
 
 html {
@@ -80,55 +71,74 @@ html {
     color: var(--ff-paragraph);
 }
 
-.header .nav-bar {
+img {
+    image-rendering: crisp-edges;
+    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+}
+
+header .nav-bar {
     background-color: var(--clr-accent);
     color: var(--clr-on-accent);
 }
 
-.header .nav-bar ul {
+header .nav-bar ul {
     align-content: center;
     align-items: center;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
+    
 }
 
-.header .nav-bar li {
+header .nav-bar li {
+    color: var(--clr-on-accent);
+    font-family: var(--ff-tertiary);
     padding: 0.2rem;
 }
 
-.header .nav-bar a {
+header .nav-bar a {
     color: var(--clr-on-accent);
-    font-family: var(--ff-tertiary);
     text-decoration: none;
 }
 
-.header .nav-bar h1 {
-    color: var(--clr-on-accent);
-    font-family: var(--ff-tertiary);
-    text-decoration: none;
-}
-
-.middle {
+main {
     background-color: var(--clr-on-background);
     margin: auto;
     padding: 1rem;
     width: 100%;
-    max-width: 32rem;
+    max-width: var(--std-max-width);
 }
 
-.middle h1 {
+main h1 {
     color: var(--clr-accent);
     font-family: var(--ff-heading);
 }
 
-.middle p {
+main p {
     color: var(--clr-paragraph);
     font-family: var(--ff-paragraph);
 }
 
-.footer p {
-    color: #FFF;
+footer {
+    background-color: #111;
+    background-color: var(--clr-on-background);
+    box-shadow: 0rem 1000rem 0rem 1000rem #111;
+    box-shadow: 0 100vmax 0 100vmax var(--clr-on-background);
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+}
+
+footer p {
+    color: #FF9;
+    color: var(--clr-paragraph);
     font-family: var(--ff-paragraph);
+    margin: 0 auto;
+    max-width: 60rem;
+    max-width: var(--std-max-width);
+    opacity: 0.4;
+    width: 98%;
+    width: var(--std-width);
 }
