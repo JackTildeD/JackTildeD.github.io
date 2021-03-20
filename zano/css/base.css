@@ -26,9 +26,11 @@
         "Times",
         "Georgia",
         "Baskerville",
+        "DejaVu Serif",
+        "Liberation Serif",
+        "Cambria",
         "Garamond",
         "Apple Garamond",
-        "Cambria",
         serif,
         "Apple Color Emoji",
         "Segoe UI Emoji",
@@ -45,7 +47,13 @@
         "Segoe UI Symbol",
         "Noto Color Emoji";
     --ff-tertiary: "Gugi",
+        "Helvetica Neue",
+        "Helvetica",
         "Arial",
+        "Calibri",
+        "DejaVu Sans",
+        "Liberation Sans",
+        "Roboto",
         sans-serif,
         "Apple Color Emoji",
         "Segoe UI Emoji",
@@ -77,12 +85,12 @@ img {
     image-rendering: pixelated;
 }
 
-header .nav-bar {
+.nav-bar {
     background-color: var(--clr-accent);
     color: var(--clr-on-accent);
 }
 
-header .nav-bar ul {
+.nav-bar ul {
     align-content: center;
     align-items: center;
     display: flex;
@@ -90,18 +98,22 @@ header .nav-bar ul {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
-    
+    padding: 0;
 }
 
-header .nav-bar li {
+.nav-bar li {
     color: var(--clr-on-accent);
+    font-family: sans-serif;
     font-family: var(--ff-tertiary);
-    padding: 0.2rem;
+    margin: 0;
+    padding: 0 0.2rem;
 }
 
 header .nav-bar a {
     color: var(--clr-on-accent);
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -114,11 +126,13 @@ main {
 
 main h1 {
     color: var(--clr-accent);
+    font-family: monospace;
     font-family: var(--ff-heading);
 }
 
 main p {
     color: var(--clr-paragraph);
+    font-family: serif;
     font-family: var(--ff-paragraph);
 }
 
@@ -134,6 +148,7 @@ footer {
 footer p {
     color: #FF9;
     color: var(--clr-paragraph);
+    font-family: serif;
     font-family: var(--ff-paragraph);
     margin: 0 auto;
     max-width: 60rem;
