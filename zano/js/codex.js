@@ -8,7 +8,7 @@ function escapeHTML(str){
 }
 let list = document.getElementsByClassName("codex-list");
 if (0 < list.length) {
-    fetch("/codex.json")
+    fetch("/zano/codex.json")
         .then(response => response.json())
         .then(data => data.slice(1, data.length - 1))
         .then(data => {
@@ -19,7 +19,7 @@ if (0 < list.length) {
                 const result = pattern.exec(item);
                 if (result) {
                     const li = document.createElement("li");
-                    li.innerHTML = "<a href=\"/codex/codex" + result
+                    li.innerHTML = "<a href=\"/zano/codex/codex" + result
                         + ".html\">" + escapeHTML(item) + "</a>";
                     list.appendChild(li);
                 }
@@ -37,7 +37,7 @@ if (0 < document.getElementsByClassName("codex-nav__current").length) {
     document.querySelector(".codex-nav__current").innerHTML
         = parseInt(found);
     let ident = found.pop();
-    fetch("/codex.json")
+    fetch("/zano/codex.json")
         .then(response => response.json())
         .then(data => data.slice(1, data.length - 1))
         .then(data => data.filter(x => x.startsWith(ident))[0])
@@ -45,7 +45,7 @@ if (0 < document.getElementsByClassName("codex-nav__current").length) {
         .then(data => {
             document.getElementById("codex-title").innerHTML = escapeHTML(data);
             });
-    fetch("/codex.json")
+    fetch("/zano/codex.json")
         .then(response => response.json())
         .then(data => data.slice(1, data.length - 1))
         .then(data => data.filter(x => x.match(/\d{3}/g)))
@@ -58,13 +58,13 @@ if (0 < document.getElementsByClassName("codex-nav__current").length) {
                 const next = data[Math.min(data.length - 1, index + 1)];
                 const last = data[data.length - 1];
                 document.querySelector(".codex-nav--first").href
-                    = "/codex/codex" + first + ".html";
+                    = "/zano/codex/codex" + first + ".html";
                 document.querySelector(".codex-nav--previous").href
-                    = "/codex/codex" + previous + ".html";
+                    = "/zano/codex/codex" + previous + ".html";
                 document.querySelector(".codex-nav--next").href
-                    = "/codex/codex" + next + ".html";
+                    = "/zano/codex/codex" + next + ".html";
                 document.querySelector(".codex-nav--last").href
-                    = "/codex/codex" + last + ".html";
+                    = "/zano/codex/codex" + last + ".html";
             }
         );
 }

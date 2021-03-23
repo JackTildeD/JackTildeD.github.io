@@ -1,7 +1,7 @@
 "use strict";
 // javascript
 /* --- 80 cols -------------------------------------------------------------- */
-fetch("/codex.json")
+fetch("/zano/codex.json")
     .then(response => response.json())
     .then(data => data.slice(1, data.length - 1))
     .then(data => data.filter(x => x.match(/\d{3}/g)))
@@ -11,8 +11,8 @@ fetch("/codex.json")
             const first = data[0];
             const last = data[data.length - 1];
             document.getElementById("newest").href
-                = "/codex/codex" + first + ".html";
+                = "/zano/codex/codex" + first + ".html";
             document.getElementById("oldest").href
-                = "/codex/codex" + last + ".html";
+                = "/zano/codex/codex" + last + ".html";
         }
     );
