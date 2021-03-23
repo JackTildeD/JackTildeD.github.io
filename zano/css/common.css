@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "Saira Stencil One";
+    src: local("Saira Stencil One"),
+        local("Saira-Stencil-One"),
+        url("https://JackTildeD.github.io/zano/fonts/SairaStencilOne-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gugi";
+    src: local("Gugi"),
+        url("https://JackTildeD.github.io/zano/fonts/Gugi-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --clr-background-alpha: #333;
+    --clr-background-beta: #111;
+    --clr-paragraph: #FF9;
+    --clr-accent-alpha: #B22;
+    --clr-accent-text: #FFF;
+    --ff-paragraph: "Times New Roman",
+        "Times",
+        "Georgia",
+        "Baskerville",
+        "DejaVu Serif",
+        "Liberation Serif",
+        "Cambria",
+        "Garamond",
+        "Apple Garamond",
+        serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --ff-heading: "Saira Stencil One",
+        "Stencil",
+        "Courier New",
+        "Arial Black",
+        "Impact",
+        monospace,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --ff-tertiary: "Gugi",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "Calibri",
+        "DejaVu Sans",
+        "Liberation Sans",
+        "Roboto",
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --notched-corners: polygon(
+        0 1.2rem,
+        1.2rem 0,
+        calc(100% - 1.2rem) 0,
+        100% 1.2rem,
+        100% calc(100% - 1.2rem),
+        calc(100% - 1.2rem) 100%,
+        1.2rem 100%,
+        0 calc(100% - 1.2rem),
+        0 1.2rem
+    );
+    --std-width: 98%;
+    --std-max-width: 60rem;
+}
+
+html {
+    background-color: var(--clr-background-alpha);
+    color: var(--ff-paragraph);
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+body::-webkit-scrollbar-corner,
+body::-webkit-scrollbar-track {
+    background-color: var(--clr-background-beta);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--clr-accent-alpha);
+}
+
+img {
+    image-rendering: crisp-edges;
+    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+}
+
+.common-header,
+.common-header__star-field {
+    overflow: hidden;
+}
+
+.common-header {
+    background-color: #111;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+}
+
+@media (min-width: 32em) {
+    .common-header {
+        height: 15rem;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.star {
+    animation: twinkle 10s ease-in-out infinite;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+}
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+    }
+    5% {
+        opacity: 0.25;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.star::before,
+.star::after {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    
+}
+.star::before {
+    height: 3px;
+    transform: translate(0, -1px);
+    width: 1px;
+}
+.star::after {
+    height: 1px;
+    transform: translate(-1px, 0px);
+    width: 3px;
+}
+
+.common-header__main {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    z-index: 9;
+    position:relative;
+}
+
+.common-header__station,
+.common-header__probe {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+@keyframes floating-probe { 
+    0% {
+        transform: translate(-50%, -51%);
+    }
+    50% {
+        transform: translate(-50%, -53.5%);
+    }
+    100% {
+        transform: translate(-50%, -51%);
+    } 
+} 
+.common-header__probe {
+    animation: floating-probe 6s ease-in-out infinite;
+}
+
+.nav-bar {
+    align-content: center;
+    align-items: center;
+    background-color: #B22;
+    background-color: var(--clr-accent-alpha);
+    color: #FFF;
+    color: var(--clr-on-accent);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-bar__item {
+    color: var(--clr-accent-text);
+    font-family: sans-serif;
+    font-family: var(--ff-tertiary);
+    margin: 0.2rem;
+}
+
+.nav-bar__link {
+    color: var(--clr-accent-text);
+    text-decoration: none;
+}
+
+.common-footer {
+    background-color: #111;
+    background-color: var(--clr-background-beta);
+    box-shadow: 0rem 1000px 0rem 1000px #111;
+    box-shadow: 0 100vmax 0 100vmax var(--clr-background-beta);
+}
+
+.common-footer__item {
+    color: #FF9;
+    color: var(--clr-paragraph);
+    font-family: serif;
+    font-family: var(--ff-paragraph);
+    margin: 0 auto;
+    max-width: 60rem;
+    max-width: var(--std-max-width);
+    opacity: 0.4;
+    width: 98%;
+    width: var(--std-width);
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity ease-in-out 300ms ;
+}
+.fade-in.appear {
+    opacity: 1;
+}

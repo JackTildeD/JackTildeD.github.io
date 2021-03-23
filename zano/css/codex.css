@@ -1,0 +1,113 @@
+.codex-nav {
+    align-content: center;
+    align-items: center;
+    background-color: var(--clr-background-beta);
+    list-style: none;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.codex-nav__item {
+    text-align: center;
+    padding: 0.1rem 1rem;
+    font-family: sans-serif;
+    font-family: var(--ff-tertiary);
+    font-weight: bolder;
+}
+
+.codex-nav__link {
+    color: #FFF;
+    color: var(--clr-paragrah);
+    text-decoration: none;
+}
+
+.codex-main {
+    font-family: "Times New Roman", "Times", serif;
+    font-family: var(--ff-paragraph);
+}
+
+.message {
+    background-color: #111;
+    background-color: var(--clr-background-beta);
+    clip-path: var(--notched-corners);
+    color: #FFF;
+    color: var(--clr-paragraph);
+    font-family: "Times New Roman", "Times", serif;
+    font-family: var(--ff-paragraph);
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem auto;
+    width: var(--std-width);
+    max-width: var(--std-max-width);
+    
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+
+.message-header,
+.message-centered {
+    color: #B22;
+    color: var(--clr-accent-alpha);
+    font-family: "Courier New", monospace;
+    font-family: var(--ff-heading);
+    font-size: 1.4rem;
+    font-size: clamp(1.1rem, 3vw, 1.4rem);
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+.message-body {
+    color: var(--clr-paragraph);
+}
+
+@media (min-width: 32em) {
+    .message-body {
+        padding-left: 1.5rem;
+        text-align: justify;
+        hyphens: auto;
+    }
+}
+
+.message-centered {
+    text-align: center;
+}
+.big-quote {
+    font-style: italic;
+}
+
+@media (min-width: 32em) {
+    .big-quote {
+        padding-left: 3rem;
+    }
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.blue {
+    color: cadetblue
+}
+@media (min-width: 16em) {
+    .indented {
+        text-indent: 6ch;
+    }
+}
+
+.align-right {
+    text-align: right;
+}
+
+a {
+    color: var(--clr-paragraph);
+}
+
+ul {
+    list-style: none;
+}
