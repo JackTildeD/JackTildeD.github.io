@@ -1,17 +1,12 @@
 "use strict";
 // javascript
 /* --- 80 cols -------------------------------------------------------------- */
-const stars = () => {
-    if (document.querySelector(".star")) {
-        return;
-    }
-    const field = document.querySelector(".common-header__star-field");
-    if (!field) {
-        return;
-    }
-    for(let i = 0; i < 200; i++) {
-        const star = document.createElement("i");
-        star.classList.add("star");
+for (
+    const field of document.getElementsByClassName("common-banner__star-field")
+)
+    for (let i = 0; i < 200; i++) {
+        const star = document.createElement("div");
+        star.classList.add("common-banner__star");
         star.style.marginLeft
             = (Math.random() * 98) + "%";
         star.style.marginTop
@@ -22,22 +17,3 @@ const stars = () => {
             = (Math.random() * 10) + "s"
         field.appendChild(star);
     }
-    return;
-}
-const include = () => {
-    document.querySelectorAll(".include").forEach(
-        x => {
-            let xhr = new XMLHttpRequest();
-            xhr.open("GET", x.id, true);
-            xhr.onreadystatechange = function() {
-                if (this.readyState !== 4) return;
-                if (this.status !== 200) return;
-                x.innerHTML = this.responseText;
-                stars();
-                return;
-            };
-            xhr.send();
-        }
-    );
-}
-include();

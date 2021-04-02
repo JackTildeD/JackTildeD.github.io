@@ -1,70 +1,115 @@
 "use strict";
 // javascript
 /* --- 80 cols -------------------------------------------------------------- */
-function escapeHTML(str){
+const escapeHTML = str => {
     const p = document.createElement("p");
     p.appendChild(document.createTextNode(str));
     return p.innerHTML;
+};
+for (const elem of document.getElementsByClassName("expand-button")) {
+    let next = elem.nextElementSibling;
+    while (next) {
+        if(next.classList.contains("expanded"))
+            next.classList.toggle("expanded");
+        next.style.display = "none";
+        next = next.nextElementSibling;
+    }
+    elem.addEventListener("click", function() {
+        this.classList.toggle("expanded");
+        let next = this.nextElementSibling;
+        while (next) {
+            next.style.display = 
+                this.classList.contains("expanded")? "block": "none";
+            next = next.nextElementSibling;
+        }
+    });
 }
-let list = document.getElementsByClassName("codex-list");
-if (0 < list.length) {
-    fetch("/zano/codex.json")
-        .then(response => response.json())
-        .then(data => data.slice(1, data.length - 1))
-        .then(data => {
-            list = list[0];
-            for (let i = 0; i < data.length; i++) {
-                const item = data[i];
-                const pattern = /\d{3,}/g;
-                const result = pattern.exec(item);
-                if (result) {
-                    const li = document.createElement("li");
-                    li.innerHTML = "<a href=\"/zano/codex/codex" + result
-                        + ".html\">" + escapeHTML(item) + "</a>";
-                    list.appendChild(li);
+fetch("/zano/codex.txt")
+    .then(response => response.text())
+    .then(data =>
+        data.split("\n").filter(x => !x.startsWith("#")).map(x =>
+            x.split(",").slice(0, 3).concat(x.split(",").slice(3).join(","))
+        ).map(x =>    
+            x[0].match(/^\d+/)? {id: x[0], part: x[1], date: x[2], title: x[3]}
+                : {id: null, part: x[0], date: null, title: x[3]}
+        )
+    )
+    .then(data => {
+        for (const list of document.getElementsByClassName("codex-list"))
+            data.forEach(item =>
+                item.id?
+                    list.innerHTML += "<li><p class=\"codex-list__title\">"
+                        + "<a href=\"/zano/codex/codex" + item.id + ".html\">"
+                        + escapeHTML(item.title)
+                        + "</a><p class=\"codex-list__date\">"
+                        + escapeHTML(item.date.replace("/", "\u200B/\u200B"))
+                        + "</p><li>"
+                    : list.innerHTML += "<li><p class=\"message-header\">"
+                        + escapeHTML(item.title) + "</p></li>"
+            )
+        let id = window.location.pathname.split("/").splice(-1)[0]
+            .match(/[0-9]+/g);
+        if (id) {
+            id = id.slice(-1)[0];
+            const pages = data.filter(x => x.id);
+            const index = pages.indexOf(pages.find(x => x.id == id));
+            const last = pages.length - 1;
+            for (
+                const cur of document.getElementsByClassName(
+                    "codex-title"
+                )
+            ) cur.innerHTML = pages[index].title;
+            for (
+                const cur of document.getElementsByClassName(
+                    "codex-nav__current"
+                )
+            ) cur.innerHTML = parseInt(id);
+            if (index != last) {
+                for (
+                    const cur of document.getElementsByClassName(
+                        "codex-nav__next"
+                    )
+                ) {
+                    cur.href = "codex" + pages[Math.min(last, index + 1)].id
+                        + ".html";
+                    cur.classList.toggle("codex-nav--enable");
                 }
-                else {
-                    const li = document.createElement("li");
-                    li.classList.add("message-header");
-                    li.innerHTML = escapeHTML(item);
-                    list.appendChild(li);
+                for (
+                    const cur of document.getElementsByClassName(
+                        "codex-nav__last"
+                    )
+                ) {
+                    cur.href = "codex" 
+                        + pages[last].id + ".html";
+                    cur.className = cur.className.replace(
+                        "codex-nav--disable", "codex-nav--enable"
+                    );
                 }
             }
-        });
-}
-const found = window.location.pathname.match(/[0-9]+/g);
-if (0 < document.getElementsByClassName("codex-nav__current").length) {
-    document.querySelector(".codex-nav__current").innerHTML
-        = parseInt(found);
-    let ident = found.pop();
-    fetch("/zano/codex.json")
-        .then(response => response.json())
-        .then(data => data.slice(1, data.length - 1))
-        .then(data => data.filter(x => x.startsWith(ident))[0])
-        .then(data => data.replace(/^[\d:]*[ ]/g, ""))
-        .then(data => {
-            document.getElementById("codex-title").innerHTML = escapeHTML(data);
-            });
-    fetch("/zano/codex.json")
-        .then(response => response.json())
-        .then(data => data.slice(1, data.length - 1))
-        .then(data => data.filter(x => x.match(/\d{3}/g)))
-        .then(data => data.map(x => (/\d{3}/g).exec(x)[0]))
-        .then(
-            data => {
-                const index = data.indexOf(ident);
-                const first = data[0];
-                const previous = data[Math.max(0, index - 1)];
-                const next = data[Math.min(data.length - 1, index + 1)];
-                const last = data[data.length - 1];
-                document.querySelector(".codex-nav--first").href
-                    = "/zano/codex/codex" + first + ".html";
-                document.querySelector(".codex-nav--previous").href
-                    = "/zano/codex/codex" + previous + ".html";
-                document.querySelector(".codex-nav--next").href
-                    = "/zano/codex/codex" + next + ".html";
-                document.querySelector(".codex-nav--last").href
-                    = "/zano/codex/codex" + last + ".html";
+            if (index != 0) {
+                for (
+                    const cur of document.getElementsByClassName(
+                        "codex-nav__previous"
+                    )
+                ) {
+                    cur.href = "codex" + pages[Math.max(0, index - 1)].id
+                        + ".html";
+                    cur.className = cur.className.replace(
+                        "codex-nav--disable", "codex-nav--enable"
+                    );
+                }
+                for (
+                    const cur of document.getElementsByClassName(
+                        "codex-nav__first"
+                    )
+                ) {
+                    cur.href = "codex" + pages[0].id + ".html";
+                    cur.className = cur.className.replace(
+                        "codex-nav--disable", "codex-nav--enable"
+                    );
+                }
             }
-        );
-}
+            
+        }
+    })
+    .catch(err => console.log(err));
