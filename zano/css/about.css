@@ -6,11 +6,10 @@
     color: var(--clr-paragraph);
     font-family: "Times New Roman", "Times", serif;
     font-family: var(--ff-paragraph);
-    padding: 0.7rem 0.7rem;
+    padding: 0.7rem 1rem;
     margin: 0.5rem auto;
     width: var(--std-width);
     max-width: var(--std-max-width);
-    
     font-size: 1.2rem;
     line-height: 1.6em;
 }
@@ -28,6 +27,11 @@
     margin: 1.rem 0;
 }
 
+.flex__item a {
+    color: #FFF;
+    color: var(--clr-paragraph);
+}
+
 .flex__item img {
     width: 100%;
     max-width: 10rem;
@@ -35,3 +39,4 @@
     display: block;
 }
 
+/* Jack~D */

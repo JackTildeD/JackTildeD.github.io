@@ -1,22 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
     <!-- *** 80 cols ******************************************************* -->
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>About Me</title>
+        <link rel="preload" href="https://JackTildeD.github.io/zano/fonts/SairaStencilOne-Regular.woff" as="font" type="font/woff" crossorigin />
+        <link rel="preload" href="https://JackTildeD.github.io/zano/fonts/Gugi-Regular.woff" as="font" type="font/woff" crossorigin />
         <link rel="icon" type="image/ico" sizes="16x16" href="https://jacktilded.github.io/zano/img/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="https://jacktilded.github.io/zano/img/favicon.png" />
-        <link rel="stylesheet" href="css/sanitize.css" />
-        <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="css/about.css" />
-        <title>About Me</title>
+        <link rel="stylesheet" href="/zano/css/sanitize.css" />
+        <link rel="stylesheet" href="/zano/css/common.css" />
+        <link rel="stylesheet" href="/zano/css/about.css" />
     </head>
     <body>
         <header>
-            <div id="common/header.html" class="include">
+            <div class="common-banner">
+                <div class="common-banner__star-field">
+                    <!-- Created at runtime -->
+                </div>
+                <div class="common-banner__main">
+                    <img class="common-banner__station" src="https://jacktilded.github.io/zano/img/station.webp" />
+                    <img class="common-banner__probe" src="https://jacktilded.github.io/zano/img/probe.webp" />
+                </div>
             </div>
-            <div id="common/nav.html" class="include">
-            </div>
+            <nav>
+                <ul class="common-nav">
+                    <li class="common-nav__item common-nav__item--first">
+                        Zano Zevash
+                    </li>
+                    <li class="common-nav__item">
+                        <a class="common-nav__link" href="/zano/index.html">Home</a>
+                    </li>
+                    <li class="common-nav__item">
+                        <a class="common-nav__link" href="/zano/about.html">About</a>
+                    </li>
+                    <li class="common-nav__item">
+                        <a class="common-nav__link" href="/zano/codex.html">Codex</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main class="about-main">
             <div class="about-main__content">
@@ -46,27 +69,33 @@
                 </p>
                 <div class="flex">
                     <div class="flex__item">
-                        <img src="https://jacktilded.github.io/zano/img/zanoFA.webp" />
+                        <a href="https://www.furaffinity.net/user/runawaydanish/">
+                            <img src="https://jacktilded.github.io/zano/img/zanoFA.webp" />
+                        </a>
                         <p>
-                            My Furaffinity.net
+                            <a href="https://www.furaffinity.net/user/runawaydanish/">My Furaffinity.net</a>
                         </p>
                         <p>
                             Furaffinity is my primary website of choice. I got my start online really through FA, and the bulk of my fans hail from there as well. As you probably know, I draw a lot of porn. There&#x2019;s porn there.
                         </p>
                     </div>
                     <div class="flex__item">
-                        <img src="https://jacktilded.github.io/zano/img/zanoTwitter.webp" />
+                        <a href="https://twitter.com/Runawaydanish/">
+                            <img src="https://jacktilded.github.io/zano/img/zanoTwitter.webp" />
+                        </a>
                         <p>
-                            My Twitter
+                            <a href="https://twitter.com/Runawaydanish/">My Twitter</a>
                         </p>
                         <p>
                             Unlike Furaffinity, my Twitter is trash and is really not followed much. This is probably because I mix my vague ramblings about political happenings with my furry porn which all goes ignored by the Twitter crowd.
                         </p>
                     </div>
                     <div class="flex__item">
-                        <img src="https://jacktilded.github.io/zano/img/zanoPatreon.webp" />
+                        <a href="https://www.patreon.com/RunawayDanish/">
+                            <img src="https://jacktilded.github.io/zano/img/zanoPatreon.webp" />
+                        </a>
                         <p>
-                            My Patreon
+                            <a href="https://www.patreon.com/RunawayDanish/">My Patreon</a>
                         </p>
                         <p>
                             If you like this project, please consider backing my Patreon. Just like the other links, this has porn at it too. There&#x2019;s also tier rewards and such, if you&#x2019;re into that sort of thing. Any money helps me keep this thing going.
@@ -76,7 +105,10 @@
             </div>
         </main>
         <footer>
-            <div id="common/footer.html" class="include">
+            <div class="common-footer">
+                <p class="common-footer__item">
+                    &#xa9; 2021 RunawayDanish
+                </p>
             </div>
         </footer>
         <script src="js/html5shiv.js">

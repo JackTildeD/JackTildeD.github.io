@@ -2,6 +2,7 @@
     align-content: center;
     align-items: center;
     background-color: var(--clr-background-beta);
+    box-shadow: 0 0.06rem 0 0.06rem var(--clr-background-alpha);
     list-style: none;
     color: #FFF;
     display: flex;
@@ -24,6 +25,37 @@
     text-decoration: none;
 }
 
+.codex-list__title a {
+    color: var(--clr-paragraph);
+}
+
+.codex-list__date {
+    color: #B22;
+    color: var(--clr-accent-alpha);
+    flex-grow: 1;
+    text-align: right;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+@media (min-width: 32em) {
+    .codex-list li {
+        display: flex;
+    }
+    .codex-list__date {
+        visibility: visible;
+        height: 1rem;
+        width: max-content;
+    }
+}
+
+@media (min-width: 40em) {
+    .codex-list__date::before {
+        content: "Posted: ";
+    }
+}
+
 .codex-main {
     font-family: "Times New Roman", "Times", serif;
     font-family: var(--ff-paragraph);
@@ -37,11 +69,11 @@
     color: var(--clr-paragraph);
     font-family: "Times New Roman", "Times", serif;
     font-family: var(--ff-paragraph);
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0.5rem auto;
+    min-height: 2rem;
     width: var(--std-width);
     max-width: var(--std-max-width);
-    
     font-size: 1.2rem;
     line-height: 1.6em;
 }
@@ -104,10 +136,44 @@
     text-align: right;
 }
 
-a {
-    color: var(--clr-paragraph);
+.codex-nav__link {
+    opacity: 0.1;
+    cursor: default;
 }
 
-ul {
-    list-style: none;
+.codex-nav--enable {
+    opacity: 1;
 }
+
+.expand-button {
+    cursor: pointer;
+    display: block;
+}
+
+.expand-button::before {
+    content: "+ ";
+}
+
+.expand-button.expanded::before {
+    content: "– ";
+}
+
+.expand-button.expanded {
+    opacity: 0.5;
+}
+
+.expand-button.expanded {
+    text-decoration: none;
+}
+
+.message img {
+    display: block;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated;
+    margin: 0 auto;
+}
+
+/* Jack~D */

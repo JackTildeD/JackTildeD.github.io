@@ -1,22 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
     <!-- *** 80 cols ******************************************************* -->
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Codex</title>
+        <link rel="preload" href="https://JackTildeD.github.io/zano/fonts/SairaStencilOne-Regular.woff" as="font" type="font/woff" crossorigin />
+        <link rel="preload" href="https://JackTildeD.github.io/zano/fonts/Gugi-Regular.woff" as="font" type="font/woff" crossorigin />
         <link rel="icon" type="image/ico" sizes="16x16" href="https://jacktilded.github.io/zano/img/favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="https://jacktilded.github.io/zano/img/favicon.png" />
-        <link rel="stylesheet" href="css/sanitize.css" />
-        <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="css/codex.css" />
-        <title>Codex</title>
+        <link rel="stylesheet" href="/zano/css/sanitize.css" />
+        <link rel="stylesheet" href="/zano/css/common.css" />
+        <link rel="stylesheet" href="/zano/css/codex.css" />
     </head>
     <body>
         <header>
-            <div id="common/header.html" class="include">
+            <div class="common-banner">
+                <div class="common-banner__star-field">
+                    <!-- Created at runtime -->
+                </div>
+                <div class="common-banner__main">
+                    <img class="common-banner__station" src="https://jacktilded.github.io/zano/img/station.webp" />
+                    <img class="common-banner__probe" src="https://jacktilded.github.io/zano/img/probe.webp" />
+                </div>
             </div>
-            <div id="common/nav.html" class="include">
-            </div>
+            <nav>
+                <ul class="common-nav">
+                    <li class="common-nav__item common-nav__item--first">
+                        Zano Zevash
+                    </li>
+                    <li class="common-nav__item">
+                        <a class="common-nav__link" href="/zano/index.html">Home</a>
+                    </li>
+                    <li class="common-nav__item">
+                        <a class="common-nav__link" href="/zano/about.html">About</a>
+                    </li>
+                    <li class="common-nav__item">
+                        <a class="common-nav__link" href="/zano/codex.html">Codex</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main class="about-main">
             <main class="about-main__content">
@@ -32,7 +55,10 @@
             </div>
         </main>
         <footer>
-            <div id="common/footer.html" class="include">
+            <div class="common-footer">
+                <p class="common-footer__item">
+                    &#xa9; 2021 RunawayDanish
+                </p>
             </div>
         </footer>
         <script src="/zano/js/html5shiv.js">
