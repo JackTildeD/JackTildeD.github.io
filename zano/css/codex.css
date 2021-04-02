@@ -150,11 +150,11 @@
     display: block;
 }
 
-.expand-button::before {
+.expand-button p::before {
     content: "+ ";
 }
 
-.expand-button.expanded::before {
+.expand-button.expanded p::before {
     content: "– ";
 }
 
