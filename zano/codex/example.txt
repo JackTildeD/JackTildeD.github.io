@@ -44,7 +44,7 @@ To whomever is reading this: Forward this documentation directly to General Y’
     <BLOCK SHIFT-1>
 <STYLE BOLD>Planned Action:<END STYLE> Based on the contents of the “read-me” and the rough method of packaging the data, it appears that the Exploitation Board has suffered massive attrition and loss of personnel, as well as substantial damage to their communication systems. Command direction is to immediately begin investigation of the data and propose action at an upcoming summit with the home organizations for the Exploitation Board’s company stakeholders, as well as Coalition government stakeholders. Coalition Navy Intelligence will begin review upon assignment, with at least 3 weeks deadline for review, considering the abundance of documentation attached.
     <END BLOCK>
-<END BLOCK> 
+<END BLOCK>
 <BLOCK POST SMART-JUSTIFY>
     <BLOCK POST-CENTERED>
 [recorded documents begin]
@@ -233,5 +233,43 @@ Test appear on scroll
     <END BLOCK>
     <BLOCK ALIASED>
         <IMAGE https://JackTildeD.github.io/zano/img/station.webp>
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY AUTO-HYPHENS>
+    <BLOCK POST-HEADER>
+Test AUTO-HYPHENS
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<STYLE BOLD>Incident Report Summary:<END STYLE> Transmission received from known Black-Out region known as the Zevash Cluster on 6/11/3987. Signal originated likely from TZXK-0198-05 “Utak”, with standard encryption codes used by the Skanton Mineral TZXK Sub-corporation. Initial confirmation of transmission was at 06:00, automatic receipt confirmation relayed within 15 seconds per standard communication relay response software. Shortly after transmission, relay ping was sent to confirm coordinates to booster at TZXK-0198-05, resulting in failure.
+<STYLE BOLD>Contents:<END STYLE> Transmission contents included substantial amounts of internal memos, as well as a full file upload of what appears to be personnel documents. Packet included a raw text “read-me” file, which claims to have been penned by Chairman of the Zevash Exploitation Board, Vend Altmeri. Text excerpt provided summarizes the main claims.
+    <END BLOCK>
+    <BLOCK SHIFT-2 ITALIC>
+To whomever is reading this: Forward this documentation directly to General Y’ziti of the Coalition Navy Intelligence Offices. We have been isolated from Coalition communications for nearly 4 years and are in need of immediate military support. Insurrection on Zevash Prime TZXK-0198-04 has resulted in a hostile takeover of colonists by hostile xenofauna! Exploitation Board members have suffered 90% casualties, Nova Ordnance Systems security is overwhelmed, and emergency measures taken upon destruction of Coalition Garrison failed. Known Tanu fleet of two Corvettes and one Frigate responsible for loss of communications. Utak-05 relay has only enough power presently to send SOS, all relevant information, and Coordinates. SEND HELP!
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<STYLE BOLD>Planned Action:<END STYLE> Based on the contents of the “read-me” and the rough method of packaging the data, it appears that the Exploitation Board has suffered massive attrition and loss of personnel, as well as substantial damage to their communication systems. Command direction is to immediately begin investigation of the data and propose action at an upcoming summit with the home organizations for the Exploitation Board’s company stakeholders, as well as Coalition government stakeholders. Coalition Navy Intelligence will begin review upon assignment, with at least 3 weeks deadline for review, considering the abundance of documentation attached.
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Test fonts
+    <END BLOCK>
+    <BLOCK FONT-PARAGRAPH>
+Font One
+    <END BLOCK>
+    <BLOCK FONT-HEADING>
+Font Two
+    <END BLOCK>
+    <BLOCK FONT-TERTIARY>
+Font Three
+    <END BLOCK>
+    <BLOCK FONT-MONOSPACE>
+Font Four
+    <END BLOCK>
+    <BLOCK BIG>
+This is big
+    <END BLOCK>
+    <BLOCK SMALL>
+This is small
     <END BLOCK>
 <END BLOCK>

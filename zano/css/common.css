@@ -518,5 +518,29 @@ body::-webkit-scrollbar-thumb {
     line-height: 1em;
 }
 
+.font-paragraph {
+    font-family: var(--ff-paragraph)
+}
+
+.font-heading {
+    font-family: var(--ff-heading);
+}
+
+.font-tertiary {
+    font-family: var(--ff-tertiary);
+}
+
+.font-monospace {
+    font-family: var(--ff-monospace);
+}
+
+.big {
+    font-size: var(--fs-heading);
+}
+
+.small {
+    font-size: clamp(0.8rem, 2.5vw, 0.9rem)
+}
+
 /* Jack~D */
 
