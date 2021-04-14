@@ -499,6 +499,11 @@ body::-webkit-scrollbar-thumb {
 
 
 .codex_output hr {
+    background-color: #B22;
+    background-color: var(--clr-accent-alpha);
+    border-color: #B22;
+    border-color: var(--clr-accent-alpha);
+    color: #B22;
     color: var(--clr-accent-alpha);
 }
 
