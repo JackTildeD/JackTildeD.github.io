@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex img {
+    width: auto;
+    padding: 20px 5px;
+}
+
+.input-name-before {
+    display: inline;
+}
+
+.agree-button,
+.see-button,
+.revoke-button {
+    display: block;
+    margin: auto;
+}
+
+.revoke-button {
+    color: #B22;
+    color: var(--clr-accent-alpha);
+}
+
