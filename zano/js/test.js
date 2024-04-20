@@ -1,6 +1,11 @@
-document.addEventListener( "DOMContentLoaded", () => {
-    for (const elem of document.getElementsByClassName("this-is-a-test")) {
-        elem.innerHTML = parseCodex(`
+"use strict";
+// javascript
+
+/* --- 80 cols -------------------------------------------------------------- */
+
+document.addEventListener("DOMContentLoaded", () => {
+  for (const elem of document.getElementsByClassName("this-is-a-test")) {
+    elem.innerHTML = parseCodex(`
 <BLOCK POST ALIASED GALLERY>
 Click an image below. The window should be filled by a modal showing a larger sized image.
 <MODAL https://images.pexels.com/photos/263194/pexels-photo-263194.jpeg aliased GALLERY-ITEM>
@@ -9,7 +14,8 @@ Click an image below. The window should be filled by a modal showing a larger si
 <MODAL https://images.pexels.com/photos/3735747/pexels-photo-3735747.jpeg GALLERY-ITEM>
 <https://images.pexels.com/photos/6684211/pexels-photo-6684211.jpeg GALLERY-ITEM>
 <END BLOCK>
-        `)
-    }
+    `);
+  }
 });
 
+// END OF LINE

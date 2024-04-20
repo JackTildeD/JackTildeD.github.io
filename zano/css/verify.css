@@ -1,37 +1,36 @@
 /* *** 80 cols ************************************************************** */
-/*  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | */
 
 .text-input {
-    display: block;
-    margin: 0.2rem auto;
+  display: block;
+  margin: 0.2rem auto;
 }
 
 .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
-.flex-container > * {
-    margin: 0.3rem;
+.flex-container>* {
+  margin: 0.3rem;
 }
 
 .verify-info *,
 .verify__form * {
-    font-family: var(--ff-monospace);
-    font-size: var(--fs-monospace);
-    border-color: #FFB;
-    border-color: var(--clr-paragraph);
+  font-family: var(--ff-monospace);
+  font-size: var(--fs-monospace);
+  border-color: #FFB;
+  border-color: var(--clr-paragraph);
 }
 
 .verify-info__list * {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .verify-info * {
-    margin: 0 0;
-    padding: 0 0;
+  margin: 0 0;
+  padding: 0 0;
 }
 
-/* Jack~D */
+/* END OF LINE */

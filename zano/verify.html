@@ -1,142 +1,114 @@
 <!doctype html>
 <html lang="en-US">
-    <!-- *** 80 cols ******************************************************* -->
-    <!--    |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |    -->
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Verify</title>
-        <link
-            rel="preload" 
-            href=
-         "https://JackTildeD.github.io/zano/fonts/SairaStencilOne-Regular.woff2"
-            as="font"
-            type="font/woff"
-            crossorigin
-        />
-        <link
-            rel="preload"
-            href="https://JackTildeD.github.io/zano/fonts/Gugi-Regular.woff2"
-            as="font"
-            type="font/woff"
-            crossorigin
-        />
-        <link
-            rel="icon"
-            type="image/ico"
-            sizes="16x16"
-            href="https://jacktilded.github.io/zano/img/favicon.ico"
-            crossorigin
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="https://jacktilded.github.io/zano/img/favicon.png"
-            crossorigin
-        />
-        <link rel="stylesheet" href="css/sanitize.css" />
-        <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="css/verify.css" />
-    </head>
-    <body class="fade-in">
-        <div class="modal">
-            <img
-                class="modal__close"
-                src="https://jacktilded.github.io/zano/img/close_white_24dp.svg"
-            >
-            <img
-                class="modal__content"
-                src=
-                  "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D"
-            >
+  <!-- *** 80 cols ********************************************************* -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Verify</title>
+    <link
+      rel="preload"
+      href="https://JackTildeD.github.io/zano/fonts/SairaStencilOne-Regular.woff2"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://JackTildeD.github.io/zano/fonts/Gugi-Regular.woff2"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="16x16"
+      href="https://jacktilded.github.io/zano/img/favicon.ico"
+      crossorigin
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://jacktilded.github.io/zano/img/favicon.png"
+      crossorigin
+    />
+    <link rel="stylesheet" href="css/sanitize.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/verify.css" />
+  </head>
+  <body class="fade-in">
+    <div class="modal">
+      <img
+        class="modal__close"
+        src="https://jacktilded.github.io/zano/img/close_white_24dp.svg"
+      />
+      <img
+        class="modal__content"
+        src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D"
+      />
+    </div>
+    <header>
+      <div class="common-banner">
+        <div class="common-banner__star-field">
+          <!-- Created at runtime -->
         </div>
-        <header>
-            <div class="common-banner">
-                <div class="common-banner__star-field">
-                    <!-- Created at runtime -->
-                </div>
-                <div class="common-banner__main">
-                    <img
-                        class="common-banner__station aliased" 
-                        src="https://jacktilded.github.io/zano/img/station.webp"
-                    />
-                    <img
-                        class="common-banner__probe aliased" 
-                        src="https://jacktilded.github.io/zano/img/probe.webp"
-                    />
-                </div>
-            </div>
-            <nav>
-                <ul class="common-nav">
-                    <li class="common-nav__item common-nav__item--first">
-                        Zano Zevash
-                    </li>
-                    <li class="common-nav__item">
-                        <a class="common-nav__link" href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="common-nav__item">
-                        <a class="common-nav__link" href="about.html">
-                            About
-                        </a>
-                    </li>
-                    <li class="common-nav__item">
-                        <a class="common-nav__link" href="codex.html">
-                            Codex
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div id="top">
+        <div class="common-banner__main">
+          <img
+            class="common-banner__station aliased"
+            src="https://jacktilded.github.io/zano/img/station.webp"
+          />
+          <img
+            class="common-banner__probe aliased"
+            src="https://jacktilded.github.io/zano/img/probe.webp"
+          />
         </div>
-        <main>
-            <form class="post verify__form">
-                <textarea
-                    class="text-input"
-                    name="text-input"
-                    rows="12"
-                    cols="80"
-                >
-                </textarea>
-                <div class="flex-container">
-                    <input
-                        type="button"
-                        value="Example"
-                        class="button-example"
-                    />
-                    <input type="button" value="Verify" class="button-verify" />
-                </div>
-            </form>
-            <div class="post verify-info">
-                <p>
-                    HTML verification satistics:
-                </p>
-                <div class="verify-info__list">
-                </div>
-            </div>
-            <div class="codex_output verify-output codex-style">
-                <!-- Created at runtime -->
-            </div>
-        </main>
-        <footer>
-            <div class="common-footer">
-                <p class="common-footer__item common-footer__item--left">
-                    &#xa9; 2021 RunawayDanish
-                </p>
-                <p class="common-footer__item common-footer__item--right">
-                    <a href="#top">
-                        Go to top
-                    </a>
-                </p>
-            </div>
-        </footer>
-        <script src="js/common.js">
-        </script>
-        <script src="js/verify.js">
-        </script>
-    </body>
-    <!-- Jack~D -->
+      </div>
+      <nav>
+        <ul class="common-nav">
+          <li class="common-nav__item common-nav__item--first">Zano Zevash</li>
+          <li class="common-nav__item">
+            <a class="common-nav__link" href="index.html"> Home </a>
+          </li>
+          <li class="common-nav__item">
+            <a class="common-nav__link" href="about.html"> About </a>
+          </li>
+          <li class="common-nav__item">
+            <a class="common-nav__link" href="codex.html"> Codex </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="top"></div>
+    <main>
+      <form class="post verify__form">
+        <textarea class="text-input" name="text-input" rows="12" cols="80">
+        </textarea>
+        <div class="flex-container">
+          <input type="button" value="Example" class="button-example" />
+          <input type="button" value="Verify" class="button-verify" />
+        </div>
+      </form>
+      <div class="post verify-info">
+        <p>HTML verification satistics:</p>
+        <div class="verify-info__list"></div>
+      </div>
+      <div class="codex_output verify-output codex-style">
+        <!-- Created at runtime -->
+      </div>
+    </main>
+    <footer>
+      <div class="common-footer">
+        <p class="common-footer__item common-footer__item--left">
+          &#xa9; 2021 RunawayDanish
+        </p>
+        <p class="common-footer__item common-footer__item--right">
+          <a href="#top"> Go to top </a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/common.js"></script>
+    <script src="js/verify.js"></script>
+    <!-- END OF LINE -->
+  </body>
 </html>
