@@ -1,0 +1,9 @@
+# Note: text files are always decoded using UTF-8!
+# Filename     | Part | Date       | Title
+# -------------+------+------------+----------------------------------------------------->
+               | 1    |            | PART 1: The Survey Team
+  codex001.txt | 1    | 03/25/2021 | [Interlude] Person of Interest Overview: Frillke Kata
+  codex002.txt | 1    | 03/25/2021 | Planet THZV Exploitation Mission Summary
+  codex003.txt | 1    | 03/25/2021 | Mission Log -1: To a would-be alien...
+               | 2    |            | PART 2: Test
+  codex004.txt | 2    | 03/25/2021 | Test Test Test Test Test

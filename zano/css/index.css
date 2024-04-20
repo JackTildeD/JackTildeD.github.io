@@ -1,0 +1,187 @@
+:root {
+    --origin: 50vw 50vh;
+}
+
+body {
+    perspective: 800px;
+    perspective-origin: var(--origin);
+}
+
+.outer-wrap {
+    --depth: 50px;
+    transform: translateZ(calc(var(--depth) * -0.5));
+}
+
+.container {
+    grid-template-columns: repeat(4, 25vmin);
+    grid-template-rows: auto 1rem auto 1rem auto 1rem auto;
+    width: 100vmin;
+    display: grid;
+    overflow: visible;
+    margin: 1rem auto;
+}
+
+.cuboid {
+    height: var(--height);
+    position: relative;
+    width: var(--width);
+}
+
+.container div {
+    align-self: center;
+    justify-self: center;
+}
+
+.cuboid__face  {
+    height: var(--height);
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: var(--width);
+}
+
+.cuboid__face--front {
+    background-color: plum;
+    background-size: cover;
+    transform: translate(-50%, -50%) translateZ(calc(var(--depth) * 0.5));
+}
+
+.cuboid__face--back {
+    background-color: pink;
+    transform: translate(-50%, -50%)
+        translateZ(calc(var(--depth) * -0.5))
+        rotateY(0.5turn);
+}
+
+.cuboid__face--left {
+    background-color: powderblue;
+    transform: translate(-50%, -50%)
+        translateX(calc(var(--width) * -0.5))
+        rotateY(-0.25turn);
+    width: var(--depth);
+}
+
+.cuboid__face--right {
+    background-color: wheat;
+    transform: translate(-50%, -50%)
+        translateX(calc(var(--width) * 0.5))
+        rotateY(0.25turn);
+    width: var(--depth);
+}
+
+.cuboid__face--top {
+    background-color: seashell;
+    height: var(--depth);
+    transform: translate(-50%, -50%)
+        translateY(calc(var(--height) * -0.5))
+        rotateX(0.25turn);
+}
+
+.cuboid__face--bottom {
+    background-color: silver;
+    height: var(--depth);
+    transform: translate(-50%, -50%)
+        translateY(calc(var(--height) * 0.5))
+        rotateX(-0.25turn);
+}
+
+.landing--first {
+    grid-column: 1 / 5;
+    grid-row-start: 1;
+    --width: 90vmin;
+    --height: 13vmin;
+}
+
+.landing--second {
+    grid-column: 1 / 3;
+    grid-row-start: 3;
+    --width: 45vmin;
+    --height: var(--width);
+}
+
+.landing--third {
+    grid-column: 3 / 5;
+    grid-row-start: 3;
+    --width: 45vmin;
+    max-width: 50vmin;
+    --height: var(--width);
+}
+
+.landing--fourth {
+    grid-row-start: 5;
+    --width: 20vmin;
+    --height: var(--width);
+}
+
+.landing--fith {
+    grid-row-start: 5;
+    --width: 20vmin;
+    --height: var(--width);
+}
+
+.landing--sixth {
+    grid-row-start: 5;
+    --width: 20vmin;
+    --height: var(--width);
+}
+
+.landing--seventh {
+    grid-row-start: 5;
+    --width: 20vmin;
+    --height: var(--width);
+}
+
+.landing--small {
+    font-size: 1rem;
+    font-size: clamp(0.8rem, 5vw, 1rem);
+}
+
+.cuboid__face--back,
+.cuboid__face--left,
+.cuboid__face--right,
+.cuboid__face--top,
+.cuboid__face--bottom {
+    background-color: var(--clr-background-alpha);
+    filter: brightness(50%);
+}
+
+.cuboid__face--front {
+    background-color: var(--clr-accent-alpha);
+}
+
+.cuboid__face p {
+    color: #FFF;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.landing__item {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    justify-self: center;
+}
+
+.landing__image {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    object-fit: cover;
+    z-index: 1;
+    transform: scale(1.02);
+}
+
+.landing__text {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    z-index: 2;
+    margin-top: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Jack~D */
+

@@ -1,0 +1,112 @@
+.codex-nav {
+    align-content: center;
+    align-items: center;
+    background-color: var(--clr-background-beta);
+    box-shadow: 0 0.06rem 0 0.06rem var(--clr-background-alpha);
+    list-style: none;
+    color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.codex-nav__item {
+    text-align: center;
+    padding: 0.1rem 1rem;
+    font-family: sans-serif;
+    font-family: var(--ff-tertiary);
+    font-weight: bolder;
+}
+
+.codex-nav__link {
+    color: #FFF;
+    color: var(--clr-paragrah);
+    text-decoration: none;
+}
+
+.codex-list__title a {
+    color: var(--clr-paragraph);
+}
+
+.codex-list__date {
+    color: #B22;
+    color: var(--clr-accent-alpha);
+    flex-grow: 1;
+    text-align: right;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.codex-list {
+    padding: 0;
+    margin: 0;
+}
+
+.codex-list li {
+    display: flex;
+}
+
+@media (min-width: 32em) {
+    .codex-list__date {
+        visibility: visible;
+        height: 1rem;
+        width: max-content;
+    }
+}
+
+@media (min-width: 40em) {
+    .codex-list__date::before {
+        content: "Posted: ";
+    }
+}
+
+.codex-nav__link,
+.codex-button {
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.codex-nav--disable {
+    opacity: 0.2;
+}
+
+.codex-nav--enable {
+    opacity: 1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex img {
+    width: auto;
+    padding: 20px 5px;
+    opacity: 0.5;
+}
+
+.input-name-before {
+    display: inline;
+}
+
+.agree-button,
+.see-button,
+.revoke-button {
+    display: block;
+    margin: auto;
+}
+
+.revoke-button {
+    color: #B22;
+    color: var(--clr-accent-alpha);
+}
+
+
+/* Jack~D */

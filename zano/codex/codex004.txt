@@ -1,0 +1,9 @@
+004
+<BLOCK POST ALIASED GALLERY>
+Click an image below. The window should be filled by a modal showing a larger sized image.
+<MODAL https://images.pexels.com/photos/263194/pexels-photo-263194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 aliased GALLERY-ITEM>
+<MODAL https://images.pexels.com/photos/248152/pexels-photo-248152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 GALLERY-ITEM>
+<MODAL https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg?cs=srgb&dl=pexels-chokniti-khongchum-2280568.jpg&fm=jpg GALLERY-ITEM>
+<MODAL https://images.pexels.com/photos/3735747/pexels-photo-3735747.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-3735747.jpg&fm=jpg GALLERY-ITEM>
+<https://images.pexels.com/photos/6684211/pexels-photo-6684211.jpeg?cs=srgb&dl=pexels-andy-barbour-6684211.jpg&fm=jpg GALLERY-ITEM>
+<END BLOCK>

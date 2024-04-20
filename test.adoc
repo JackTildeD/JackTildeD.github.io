@@ -1,0 +1,36 @@
+= My Document Title
+Author Name
+:date: 2024-03-09
+:toc:
+:source-highlighter: pygments
+
+== Introduction
+
+This is a simple introduction to an AsciiDoc file.
+
+* Point 1
+* Point 2
+* Point 3
+
+== Section One
+
+AsciiDoc is lightweight and easy to learn.
+
+=== Subsection A
+
+You can create sub-sections and even include code snippets:
+
+[source,python]
+----
+import sys
+
+def hello():
+    print("Hello, AsciiDoc!")
+
+if __name__ == "__main__":
+    hello()
+----
+
+== Conclusion
+
+AsciiDoc is versatile and can be converted into various output formats.

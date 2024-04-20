@@ -1,0 +1,38 @@
+<BLOCK POST>
+<BLOCK Post-Centered>[DATA LOG RESUMES]<END BLOCK>
+<BLOCK POST-HEADER>[Entry 040 BEGINS]<END BLOCK>
+<BLOCK FONT TWO YELLOW SMALL>Type: Text Document [Encrypted, Personal Password]<line-break>
+Created: 31 / 08 / 3979 [T 03:18]<line-break>
+Origin: Word processing software installed on device.<END BLOCK>
+<BLOCK SHIFT1><Style Big Bold>Zevash Mission Log: Day -1<End Style><END BLOCK>
+<BLOCK INDENTED SHIFT1 Smart-Justify>I’m the Head Researcher. Not a team lead, not a shift lead, not some guy filling up vials of specimen with testing substrate... I’m the HEAD! HEAD RESEARCHER! AAAAAAAAAAAA!!!! Icantevenbegintodescribehowexcitediamaboutthisentirething!
+Calm. Calm thoughts, breathe. The tranquility of a thousand sleeping dragons. Okay, let me explain: Back when we graduated, I was under the impression from the initial projections that the honor would go to Dr. Alleti Sugvral (MD and several other diplomas and all). However, apparently Alleti is not that kind of doctor, but rather a Trauma Surgeon with a black-bar record! I learned a little about his experiences, the Tanu Uprising from 3966 in particular. He’s got a lot of the “old man” syndromes, distant gaze, callous speech, oddly sexual (though not sexist, amazingly) choice of words, the works. But if his record isn’t to be believed, that time one of the other Candidates got shot in the leg by an improperly disabled handlaz is certainly of relevance. This guy doesn’t move quick until someone’s hurt, and then it’s a blur of greying fur and medical equipment.
+I have under me two other Science Team candidates, plus a Coalition Navy pilot and a Corporate Security guard from Nova Ordinance Systems. I put together some scans the CEMA folks provided me, and wrote up some quick personnel biographies for the record. I’ll be submitting these Biographies for recordkeeping and the appropriate checkboxing. But! Before I get into those bios, I got not only the lead position because I am the most academically adept of my fellow Science Team members, but also because apparently I am the only person who has interpersonal conflict resolution training, period. Even Alleti hasn’t got that, and I thought it was standard for medical doctors. Supposedly, he was trained during the 3954 Third Fleet Piracy scare when medical trainings were lax, so thusly here I am. On top of being Head Researcher, which is basically my scholarly duties plus Project command, I also am the “Morale Officer”, so not only do I have to steer the ship and describe the ship, I also have to keep the crew of the ship from fighting each other or feeling sad or whatever. They’re supposed to hire a shrink for this, but Amendment XOZ-10128-A2 to CEMA Exploitation Team Regulations removed that need in favor for a more flexible “Morale Officer” position.
+I really hope I don’t have to put someone into a Safety Hold. I’m very small. We go through pre-departure briefing tomorrow in 5 hours. I’m writing a mission summary afterwards, bean juice dragon guide me to a swift victory!<END BLOCK>
+<BLOCK POST-HEADER>[Entry 040 ENDS]<END BLOCK><END BLOCK>
+
+<BLOCK POST>
+<BLOCK POST-HEADER>[Entry 041]<END BLOCK>
+<BLOCK FONT TWO YELLOW SMALL>Type: Multi-Media Text Document [Encrypted, Personal Password]<line-break>
+Created: 31 / 08 / 3979 [T 05:12]<line-break>
+Origin: Word processing software installed on device. Images imported from image editing software.<line-break><END BLOCK>
+
+<BLOCK POST-HEADER>[SCRAMBLED IMAGE CONTENT DETECTED: RECOVERED (6) IMAGES]
+    <END BLOCK>
+
+    <BLOCK>
+        <BLOCK SHIFT1 BLUE FONT-HEADING BIG EXPAND-FOLLOWING-BUTTON>
+[Click to Review Recovered Files...]
+        <END BLOCK>
+<BLOCK SHIFT-1><STYLE BOLD> PERSONNEL BIOGRAPHIES: My Science Team<End Style>
+<END BLOCK>
+<BLOCK SHIFT 1 POST ALIASED GALLERY>
+    <MODAL ~/Bios/Alleti Sugvral Bio Sheet.png GALLERY-ITEM ALIASED>
+    <MODAL ~/Bios/Skeltz Mercz Bio Sheet.png GALLERY-ITEM ALIASED>
+    <MODAL ~/Bios/Vash Wagno Bio Sheet.png GALLERY-ITEM ALIASED>
+    <MODAL ~/Bios/Xhotoc Izit Bio Sheet.png GALLERY-ITEM ALIASED>
+    <MODAL ~/Bios/Ruchal Vetts Bio.png GALLERY-ITEM ALIASED>
+    <MODAL ~/Bios/Frillke Kata Bio Sheet Binary.png GALLERY-ITEM ALIASED>
+<END BLOCK><END BLOCK>
+
+<BLOCK POST-HEADER>[Entry 041 ENDS]<END BLOCK><END BLOCK>

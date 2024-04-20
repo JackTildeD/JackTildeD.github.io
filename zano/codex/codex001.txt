@@ -1,0 +1,276 @@
+001
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Forward:<LINE-BREAK>
+[Message received and decrypted]<LINE-BREAK>
+[Send date: 08 / 11 / 3987]<LINE-BREAK>
+[From: CMDR. Utal Brenz]
+        <HORIZONTAL-LINE>
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<ICON>Lieutenant <NAME>,
+The following document has been cleared for release by Coalition Information Command, following confirmation of incident <STYLE BLUE>[THZV-00018]<END STYLE>. Downloaded materials have been declassified for your immediate attention. Notes originate from a compromised datapad located on <STYLE BLUE>[Thatmo Zevash]<END STYLE>, believed to be currently in the possession of former <STYLE BLUE>[Project: Zevash-Exploitation]<END STYLE> lead researcher and citizen of interest <STYLE BLUE>[Frillke Kata]<END STYLE>. Top-level security clearance has been successfully approved by command, and redactions have been avoided for full analysis of sensitive materials.
+
+Per General Y’ziti, you are due to have a full report by no later than 08:00 hours, on 30/ 11/3987 summarizing relevant information for the Zevash Exploitation Board Holders briefing.
+PS: I swung by the cantina and saw you-know-who. I’d double time it on your report.
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+[Message received and decrypted]<LINE-BREAK>
+[Send date: 08 / 11 / 3987]<LINE-BREAK>
+[From: LT. Jen xho-jex]
+        <HORIZONTAL-LINE>
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+Sup Noob!
+Don’t worry, just because you’re new here doesn’t mean we’re gonna haze you on your first assignment. You’re a lot shorter than I imagined from the personnel bio. Anyway, you’ll fit right in! You-know-who is riding on everyone’s tails trying to get this stuff sifted out, I’ve been digging through the reports and I found an internal memo you’ll wanna review before you get into the data logs someone uploaded from the <STYLE BLUE>[Utak Relay]<END STYLE> we have on scan. 
+PS: Commander Brenz is super cool, you should write to him when you have a summary handy. Remember to record all of your mission-critical documents encase we get audited. You-know-who says we have to.
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+​[Message received and decrypted]<LINE-BREAK>
+[Send date: 08 / 11 / 3987]<LINE-BREAK>
+[From: LT. Jen xho-jex, Forwarded From: General Isics Y’ziti]
+        <HORIZONTAL-LINE>
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<STYLE BOLD>Incident Report Summary:<END STYLE> Transmission received from known Black-Out region known as the Zevash Cluster on 6/11/3987. Signal originated likely from TZXK-0198-05 “Utak”, with standard encryption codes used by the Skanton Mineral TZXK Sub-corporation. Initial confirmation of transmission was at 06:00, automatic receipt confirmation relayed within 15 seconds per standard communication relay response software. Shortly after transmission, relay ping was sent to confirm coordinates to booster at TZXK-0198-05, resulting in failure.
+<STYLE BOLD>Contents:<END STYLE> Transmission contents included substantial amounts of internal memos, as well as a full file upload of what appears to be personnel documents. Packet included a raw text “read-me” file, which claims to have been penned by Chairman of the Zevash Exploitation Board, Vend Altmeri. Text excerpt provided summarizes the main claims.
+    <END BLOCK>
+    <BLOCK SHIFT-2 ITALIC>
+To whomever is reading this: Forward this documentation directly to General Y’ziti of the Coalition Navy Intelligence Offices. We have been isolated from Coalition communications for nearly 4 years and are in need of immediate military support. Insurrection on Zevash Prime TZXK-0198-04 has resulted in a hostile takeover of colonists by hostile xenofauna! Exploitation Board members have suffered 90% casualties, Nova Ordnance Systems security is overwhelmed, and emergency measures taken upon destruction of Coalition Garrison failed. Known Tanu fleet of two Corvettes and one Frigate responsible for loss of communications. Utak-05 relay has only enough power presently to send SOS, all relevant information, and Coordinates. SEND HELP!
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<STYLE BOLD>Planned Action:<END STYLE> Based on the contents of the “read-me” and the rough method of packaging the data, it appears that the Exploitation Board has suffered massive attrition and loss of personnel, as well as substantial damage to their communication systems. Command direction is to immediately begin investigation of the data and propose action at an upcoming summit with the home organizations for the Exploitation Board’s company stakeholders, as well as Coalition government stakeholders. Coalition Navy Intelligence will begin review upon assignment, with at least 3 weeks deadline for review, considering the abundance of documentation attached.
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-CENTERED>
+[recorded documents begin]
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+[ENTRY 001]
+Type: Text Document [non-secured]<LINE-BREAK>
+Created: 02 / 08 / 3979 [T 16:35]<LINE-BREAK>
+Origin: Received electronic transmission from approved sender.
+        <HORIZONTAL-LINE>
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+NOTICE OF HIRE
+Good Day,
+    <BLOCK INDENTED>
+My name is Board Recruiter Yaven, we spoke earlier this month regarding your application to the Ethical Exploitation Program! I know you were bummed to hear about the plans for the Bright System falling through on account of the facility becoming compromised by previously undocumented tectonic systems, but count yourself lucky! It seems that they’ve had to rush to deploy Iskaan engineers due to the aquatic conditions, and based on initial safety screenings, you’re sadly not a strong enough swimmer to escape what they’re calling “anchor tides”. Based on what I read, there’s not much going on with the biology department anyway, the planet’s biosphere seems currently devoid of macro-organisms worthy of your time.
+However, the Board just got approval for the Prime candidate system, designated as Thatmo Zevash! Based on initial scans from probes, it looks like there’s a host of macro-organisms that might be of worth and interest. There’s some strange electrical interference on the planet that the probes detected, but based on ionizing particles detected, it may just be due to unshielded scanners on the old Mk III’s. Besides, you’re young and a little neutron bombardment won’t hurt you any more than a bad diet these days. I’ve attached the contract you’ll be agreeing to, if you take the assignment. Because Thatmo Zevash is classified as a G-Class Biohazardous Environment, you’re going to be getting bonus credits towards your college debt at a rate of 10.15%! That works out well enough if your DebtChecker account is up to date and you’ve not already gone back to school, because with that little extra, you could be done paying off your remaining debt for your degrees in three short years!
+I look forward to hearing from you earnestly!
+        <END BLOCK>
+    <END BLOCK>
+    <BLOCK ALIGN-RIGHT>
+Yaven Xing, Board Recruiter<LINE-BREAK>
+THE COALITION EXPLOITATION MANAGEMENT AGENCY<LINE-BREAK>
+<STYLE ITALIC>“CEMA, bringing the universe to the citizenry”<END STYLE>
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-CENTERED>
+[Attachment Corrupt: Cannot contact Server]
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+[ENTRY 002]<LINE-BREAK>
+Type: Text Document [non-secured]<LINE-BREAK>
+Created: 02 / 08 / 3979 [T 16:51]<LINE-BREAK>
+Origin: From device electronic messaging outbox.
+        <HORIZONTAL-LINE>
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+YES PLEASE! (RE: NOTICE OF HIRE)
+Hey again Yaven!
+        <BLOCK INDENTED>
+        <BLOCK ALIASED HEXAGON-ICON>
+            <IMAGE https://JackTildeD.github.io/zano/img/frillke.webp>
+        <END BLOCK>
+I didn’t think I’d hear back from CEMA so quickly! It’s a shame that those folks on Bright got sucked down, it was all over the news this week. I don’t have gills anyway, so it’s probably for the best. I had a look through the contract, and have a few questions I’d like to answer if you could make a date for us to meet up and discuss. The Mesmos University System is notorious for rejecting contracts that pay-back bonus rates, so we’d have to provide adequate documentation showing that the system is properly categorized. It’s a Mesmos thing, I know you’ll understand.
+I am looking forward to going if things work out! I’ve attached my amended Contract Form 1-102-D as per CEMA guidelines in hopes that’ll smooth things over.
+        <END BLOCK>
+Eager as always!
+    <END BLOCK>
+    <BLOCK ALIGN-RIGHT>
+Frillke Kata, Ph-DDD
+    <END BLOCK>
+<END BLOCK>
+    <BLOCK POST>
+<BLOCK POST-CENTERED>
+[Attachment Corrupt: Cannot contact Server]
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+[ENTRY 003]<LINE-BREAK>
+Type: Text Document [non-secured]<LINE-BREAK>
+Created: 03 / 08 / 3979 [T 09:18]<LINE-BREAK>
+Origin: Received electronic transmission from approved sender.
+        <HORIZONTAL-LINE>
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+SAVE THE DATE! (RE: YES PLEASE! (RE: NOTICE OF HIRE))
+Frillke,
+        <BLOCK INDENTED>
+Good morning once again. I’ve scheduled a follow-up appointment to review contract details with myself and some representatives from the Exploitation Board. Just a few pieces of advice since they can request a denial if they don’t like something: dress professional, groom well, and practice speaking in a confident voice with good eye contact. You’ll want to have a firm handshake, but don’t believe the myth about the 5000 Newton Death-grip, that’s only relevant for the Private Military folks.
+I’ll be seeing you at the Skanton Corporate Center, down past grid 101-19-06 at roughly 08:00, on 09/08/3979. There will be complimentary caffeinated beverages and breakfast food appropriate for Mesmian and Epostian dietary traditions. Wish you the best, and see you soon!
+        <END BLOCK>
+PS: I printed a paper copy of the amended contract, Skanton prefers physical media copies of everything.
+    <END BLOCK>
+    <BLOCK ALIGN-RIGHT>
+Yaven Xing, Board Recruiter<LINE-BREAK>
+THE COALITION EXPLOITATION MANAGEMENT AGENCY<LINE-BREAK>
+<STYLE ITALIC>“CEMA, bringing the universe to the citizenry”<END STYLE>
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Test \<IMAGE\>
+    <END BLOCK>
+Test
+    <BLOCK ALIASED>
+        <IMAGE https://JackTildeD.github.io/zano/img/station.webp>
+    <END BLOCK>
+Test
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Test \<PREFORMATTED\>
+    <END BLOCK>
+    <PREFORMATTED>
+              a8888b.
+             d888888b.
+             8P"YP"Y88
+             8|o||o|88
+             8'    .88
+             8`._.' Y8.
+            d/      `8b.
+          .dP   .     Y8b.
+         d8:'   "   `::88b.
+        d8"           `Y88b
+       :8P     '       :888
+        8a.    :      _a88P
+      ._/"Yaa_ :    .| 88P|
+ jgs  \\    YP"      `| 8P  `.
+ a:f  /     \\._____.d|    .'
+      `--..__)888888P`._.'
+    <END PREFORMATTED>
+<END BLOCK>
+<BLOCK POST>
+    <BLOCK POST-HEADER>
+Test alignment
+    <END BLOCK>
+    <BLOCK ALIGN-LEFT>
+Left
+    <END BLOCK>
+    <BLOCK ALIGN-CENTER>
+Center
+    <END BLOCK>
+    <BLOCK ALIGN-RIGHT>
+Right
+    <END BLOCK>
+    <BLOCK FULLY-JUSTIFY>
+Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify Justify
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Test text formating
+    <END BLOCK>
+    <BLOCK UNDERLINED>
+Underline
+    <END BLOCK>
+    <BLOCK WAVEY-RED>
+Wavey red
+    <END BLOCK>
+    <BLOCK BOLD>
+<STYLE BROWN>BROWN<END STYLE><STYLE RED>RED<END STYLE><STYLE ORANGE>ORANGE<END STYLE><STYLE YELLOW>YELLOW<END STYLE><STYLE GREEN>GREEN<END STYLE><STYLE BLUE>BLUE<END STYLE><STYLE PURPLE>PURPLE<END STYLE><STYLE PINK>PINK<END STYLE><STYLE WHITE>WHITE<END STYLE><STYLE GREY>GREY<END STYLE>
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Test expand buttons
+    <END BLOCK>
+    <BLOCK>
+        <BLOCK EXPAND-NEXT-BUTTON>
+[Expand Next]
+        <END BLOCK>
+        <BLOCK>
+Thing One
+        <END BLOCK>
+        <BLOCK>
+Thing Two
+        <END BLOCK>
+        <BLOCK>
+Thing Three
+        <END BLOCK>
+    <END BLOCK>
+    <BLOCK>
+        <BLOCK EXPAND-FOLLOWING-BUTTON>
+[Expand Following]
+        <END BLOCK>
+        <BLOCK>
+Thing One
+        <END BLOCK>
+        <BLOCK>
+Thing Two
+        <END BLOCK>
+        <BLOCK>
+Thing Three
+        <END BLOCK>
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY FADE-IN>
+    <BLOCK POST-HEADER>
+Test appear on scroll
+    <END BLOCK>
+    <BLOCK ALIASED>
+        <IMAGE https://JackTildeD.github.io/zano/img/station.webp>
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY AUTO-HYPHENS>
+    <BLOCK POST-HEADER>
+Test AUTO-HYPHENS
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<STYLE BOLD>Incident Report Summary:<END STYLE> Transmission received from known Black-Out region known as the Zevash Cluster on 6/11/3987. Signal originated likely from TZXK-0198-05 “Utak”, with standard encryption codes used by the Skanton Mineral TZXK Sub-corporation. Initial confirmation of transmission was at 06:00, automatic receipt confirmation relayed within 15 seconds per standard communication relay response software. Shortly after transmission, relay ping was sent to confirm coordinates to booster at TZXK-0198-05, resulting in failure.
+<STYLE BOLD>Contents:<END STYLE> Transmission contents included substantial amounts of internal memos, as well as a full file upload of what appears to be personnel documents. Packet included a raw text “read-me” file, which claims to have been penned by Chairman of the Zevash Exploitation Board, Vend Altmeri. Text excerpt provided summarizes the main claims.
+    <END BLOCK>
+    <BLOCK SHIFT-2 ITALIC>
+To whomever is reading this: Forward this documentation directly to General Y’ziti of the Coalition Navy Intelligence Offices. We have been isolated from Coalition communications for nearly 4 years and are in need of immediate military support. Insurrection on Zevash Prime TZXK-0198-04 has resulted in a hostile takeover of colonists by hostile xenofauna! Exploitation Board members have suffered 90% casualties, Nova Ordnance Systems security is overwhelmed, and emergency measures taken upon destruction of Coalition Garrison failed. Known Tanu fleet of two Corvettes and one Frigate responsible for loss of communications. Utak-05 relay has only enough power presently to send SOS, all relevant information, and Coordinates. SEND HELP!
+    <END BLOCK>
+    <BLOCK SHIFT-1>
+<STYLE BOLD>Planned Action:<END STYLE> Based on the contents of the “read-me” and the rough method of packaging the data, it appears that the Exploitation Board has suffered massive attrition and loss of personnel, as well as substantial damage to their communication systems. Command direction is to immediately begin investigation of the data and propose action at an upcoming summit with the home organizations for the Exploitation Board’s company stakeholders, as well as Coalition government stakeholders. Coalition Navy Intelligence will begin review upon assignment, with at least 3 weeks deadline for review, considering the abundance of documentation attached.
+    <END BLOCK>
+<END BLOCK>
+<BLOCK POST SMART-JUSTIFY>
+    <BLOCK POST-HEADER>
+Test fonts
+    <END BLOCK>
+    <BLOCK FONT-PARAGRAPH>
+Font One
+    <END BLOCK>
+    <BLOCK FONT-HEADING>
+Font Two
+    <END BLOCK>
+    <BLOCK FONT-TERTIARY>
+Font Three
+    <END BLOCK>
+    <BLOCK FONT-MONOSPACE>
+Font Four
+    <END BLOCK>
+    <BLOCK BIG>
+This is big
+    <END BLOCK>
+    <BLOCK SMALL>
+This is small
+    <END BLOCK>
+<END BLOCK>
